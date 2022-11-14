@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SPRING_MVC:war exploded">
+    <output-path>$PROJECT_DIR$/SPRING_MVC-02-CRUD/target/SPRING_MVC</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>SPRING_MVC</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SPRING_MVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.23" />
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.31" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:10.1.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.31.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:10.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:10.1.1" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar" output-file-name="jstl-jstl-1.2.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar" output-file-name="javax.servlet-jstl-1.2.jar" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.23" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/SPRING_MVC-02-CRUD/target/SPRING_MVC/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SPRING_MVC/web/Web" />
+    </root>
+  </artifact>
+</component>
